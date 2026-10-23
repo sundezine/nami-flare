@@ -23,3 +23,15 @@ The inquiry form, donations, calendar, map, and film page are design previews. T
 All three designs share the content in `index.html`. Styles are in its `<style>` block and the theme switcher and page content are in its `<script>` block. Replace `portrait.jpg` to update the shared portrait.
 
 No Sites hosting manifest, credentials, or repository history are included. No license is granted for the client’s photography or branding.
+
+## Development studio
+
+The production website stays on Squarespace. This repository and GitHub Pages are for design development and client review only.
+
+- `/` preserves Golden Soul, After Hours, and Funk & Flare.
+- `/studio/` adds Velvet Soul, Midnight Muse, and Electric Groove, with animation, updated biography and awards, and six page previews per direction.
+- Both previews share the root `portrait.jpg`.
+- Design preferences are saved only in the visitor's browser; they are not submitted to Sundezine.
+- No live Stripe checkout, email delivery, calendar sync, or client CMS is implemented here. Those are production integration tasks in Squarespace.
+
+Make future development changes in this repository. Never commit credentials or private client materials.
